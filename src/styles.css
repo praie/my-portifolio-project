@@ -1,0 +1,39 @@
+--root {
+  --branding-color: pink;
+  --primary-color: aliceblue;
+  --heading-font-family: Playfair Display serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: black;
+  font-family: Playfair Display serif;
+  font-weight: bold;
+}
+h1 {
+  font-size: 80px;
+}
+p {
+  font-weight: normal;
+  line-height: 1.5;
+}
+.Hero p {
+  font-weight: bold;
+}
+.Hero h2 {
+  font-size: 24px;
+  line-height: 2;
+}
+.Hero {
+  background: aliceblue;
+  text-align: center;
+  padding: 160px 20px;
+}
+.btn-branding {
+  background: palevioletred;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 15px 30px;
+}
