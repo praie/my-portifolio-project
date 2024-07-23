@@ -3,6 +3,9 @@
   --primary-color: aliceblue;
   --heading-font-family: Playfair Display serif;
 }
+body {
+  font-family: var(--default-font-family);
+}
 h1,
 h2,
 h3,
@@ -16,6 +19,7 @@ h1 {
 }
 p {
   font-weight: normal;
+
   line-height: 1.5;
 }
 .Hero p {
@@ -23,17 +27,34 @@ p {
 }
 .Hero h2 {
   font-size: 24px;
-  line-height: 2;
+  line-height: 30px;
 }
 .Hero {
-  background: aliceblue;
+  background: #afa79f;
   text-align: center;
   padding: 160px 20px;
 }
 .btn-branding {
-  background: palevioletred;
+  background: #e8bcbc;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   padding: 15px 30px;
+}
+img {
+  width: 500px;
+}
+.btn-branding-outline {
+  color: #afa79f;
+  padding: 15px 30px;
+  border: 1px solid #afa79f;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media (max-width: 900px) {
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
 }
