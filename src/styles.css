@@ -43,6 +43,7 @@ p {
 }
 img {
   width: 500px;
+  border-radius: 10px;
 }
 .btn-branding-outline {
   color: #afa79f;
@@ -52,9 +53,27 @@ img {
   font-size: 16px;
   line-height: 1.5;
 }
+.about-hero h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-hero h2 {
+  font-size: 18px;
+  font-family: var(--default-) font-family;
+}
+.about-hero {
+  padding: 160px 20px;
+}
+.about-hero-content {
+  margin: 30px;
+}
 @media (max-width: 900px) {
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+  .about-hero {
+    text-align: center;
+    padding: 0;
   }
 }
