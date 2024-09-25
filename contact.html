@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Praise is a front-end engineer based in Cyprus"
+    />
 
     <link
       rel="stylesheet"
@@ -40,6 +44,20 @@
     <title>Praise</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-end">
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li><a href="/about.html" title="About Praise">About</a></li>
+          <li><a href="/work.html" title="praise's work">Work</a></li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Praise">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-3">Lets get in touch!</h1>
@@ -53,5 +71,30 @@
         <p><a href="https://www.instagram" target="_blank">@praie</a></p>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Lets work together</p>
+        </div>
+        <div>
+          <a href="/contact.html" class="btn-branding mt-4">Contact me</a>
+        </div>
+      </div>
+      <div class="email-link d-flex justify-content-center">
+        <a href="mailto:praisemaposa9@gmail.com">praisemaposa9@gmail.com</a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https//www.instagram.com/praie" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://github.com/praie" target="_blank">
+          <i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https//www.twitter.com/praise" target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+    </footer>
   </body>
 </html>
