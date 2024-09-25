@@ -17,10 +17,14 @@ h4 {
 h1 {
   font-size: 80px;
 }
+h4 {
+  font-size: 48px;
+  margin-top: 0;
+}
 p {
   font-weight: normal;
-
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 30px;
 }
 .Hero p {
   font-weight: bold;
@@ -38,8 +42,9 @@ p {
   background: #e8bcbc;
   border-radius: 4px;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 27px;
   padding: 15px 30px;
+  color: black;
 }
 img {
   width: 500px;
@@ -99,6 +104,39 @@ nav li.active a {
 .content {
   margin: 30px;
 }
+footer {
+  margin: 60px 0;
+}
+.email-link a {
+  text-align: center;
+  font-size: 23px;
+  text-decoration: none;
+  color: black;
+}
+.email-link a:hover {
+  color: #afa79f;
+}
+.social-links a {
+  background-color: #f9f7fe;
+  margin: 0 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms;
+}
+footer .social-links a:hover {
+  color: white;
+  background: #afa79f;
+}
+footer .contact-box {
+  background: #afa79f;
+  border-radius: 10px;
+  padding: 40px 120px;
+}
+.contact-box p {
+  margin: 0;
+}
+
 @media (max-width: 900px) {
   .project-desciption {
     padding: 0;
